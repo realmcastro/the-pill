@@ -570,8 +570,8 @@ add("Nos primeiros dias", LIV)
 QUANDO["Da máscara"] = "nos primeiros dias, antes de Da assentada"
 add("Da máscara", LT); sumario(st[-1], 0, "Da máscara")
 LBP = ParagraphStyle('lbp', **{**base, 'textColor': GRAY}, fontSize=9.5, leading=12, spaceBefore=6, spaceAfter=2, keepWithNext=1)
-add("<i>“Diga primeiro a si mesmo quem você quer ser; depois faça o que tem de fazer.”</i>", ParagraphStyle('ps1', parent=PC, fontSize=12, spaceAfter=2))
-add("Epicteto, <i>Discursos</i>, III, 23 (paráfrase)", ParagraphStyle('ps2', parent=EPA, spaceAfter=20))
+add("<i>“I will never know myself until I do this on my own.<br/>[...]<br/>I will never be anything till I break away from me.<br/>I will break away, I’ll find myself today.”</i>", ParagraphStyle('ps1', parent=PC, fontSize=12, spaceAfter=2))
+add("Linkin Park, <i>Somewhere I Belong</i> (2003)", ParagraphStyle('ps2', parent=EPA, spaceAfter=20))
 SEC_NO_SUMARIO = True
 
 sec("Da máscara")
